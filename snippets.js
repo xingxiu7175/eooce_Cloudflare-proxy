@@ -1,7 +1,7 @@
 import { connect } from 'cloudflare:sockets';
 
 let proxyIP = '13.230.34.30';  // proxyIP
-let yourUUID = '93bf61d9-3796-44c2-9b3a-49210ece2585';  // UUID
+let yourUUID = '8a911a0e-13c4-43b6-bfbf-a31bdcbffc67';  // UUID
 
 // CDN 
 let cfip = [ // 格式:优选域名:端口#备注名称、优选IP:端口#备注名称、[ipv6优选]:端口#备注名称、优选域名#备注 
