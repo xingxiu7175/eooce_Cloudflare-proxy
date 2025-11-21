@@ -3,8 +3,8 @@
 import { connect } from 'cloudflare:sockets';
 
 let subPath = 'link';     // 节点订阅路径,不修改将使用UUID作为订阅路径
-let proxyIP = '13.230.34.30';  // proxyIP 格式：ip、域名、ip:port、域名:port等,没填写port，默认使用443
-let password = '5dc15e15-f285-4a9d-959b-0e4fbdd77b63';  // 节点UUID
+let proxyIP = 'ProxyIP.Aliyun.CMLiussss.net';  // proxyIP 格式：ip 13.230.34.30、域名、ip:port、域名:port等,没填写port，默认使用443
+let password = 'f3269b56-a9ad-4e2d-a666-a00400377d79';  // 节点UUID
 
 // CF CDN 
 let cfip = [ // 格式:优选域名:端口#备注名称、优选IP:端口#备注名称、[ipv6优选]:端口#备注名称、优选域名#备注 
