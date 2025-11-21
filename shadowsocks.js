@@ -8,8 +8,8 @@ let password = 'f3269b56-a9ad-4e2d-a666-a00400377d79';  // 节点UUID
 
 // CF CDN 
 let cfip = [ // 格式:优选域名:端口#备注名称、优选IP:端口#备注名称、[ipv6优选]:端口#备注名称、优选域名#备注 
-    'mfa.gov.ua#SG', 'saas.sin.fan#JP', 'store.ubi.com#SG','cf.130519.xyz#KR','cf.008500.xyz#HK', 
-    'cf.090227.xyz#SG', 'cf.877774.xyz#HK','cdns.doon.eu.org#JP','sub.danfeng.eu.org#TW','cf.zhetengsha.eu.org#HK'
+    'mfa.gov.ua#SNIP_Sg_ss', 'saas.sin.fan#SNIP_Jp_ss', 'store.ubi.com#SNIP_Sg_ss','cf.130519.xyz#SNIP_Kr_ss','cf.008500.xyz#SNIP_Hk_ss', 
+    'cf.090227.xyz#SNIP_Sg_ss', 'cf.877774.xyz#SNIP_Hk_ss','cdns.doon.eu.org#SNIP_Jp_ss','sub.danfeng.eu.org#SNIP_Tw_ss','cf.zhetengsha.eu.org#SNIP_Hk_ss'
 ];  // 在此感谢各位大佬维护的优选域名
 
 function closeSocketQuietly(socket) { 
